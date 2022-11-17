@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+body{
+    background-color:hsl(0, 0%, 98%) ;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 50px;
+    height: 20px;
+    margin-top: 1em;
+
+}
+.Nav-bar{
+    padding-top: 2em;
+    display: flex;
+    align-items: center;
+    margin: 1em 3em 0;   
+}
+nav{
+    display: flex;
+    gap: 40px;
+}
+.Nav-bar ul{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+.Nav-bar2{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 400px;
+    align-items: center;
+    margin: 1em 3em 0;
+    gap: 20px;
+}
+.Nav-bar2 a{
+    text-decoration: none;
+    color: hsl(0, 0%, 8%);
+}
+
+ul li{
+    list-style: none;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 8%);
+}
+button{
+    display: flex;
+    border: 2px solid hsl(0, 0%, 41%);
+    padding: .5em 1em;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 98%);
+}
+.container2{
+    display: flex;
+    align-items: center;
+}
+.main{
+    display: flexbox;
+    padding-top: 120px;
+    padding-left: 140px;
+    align-items: center;
+}
+h1{font-size: 60px;
+}
+p{
+    color: hsl(0, 0%, 41%);
+    line-height: 1.5;
+    font-size: 18px;
+
+}
+.btn-main{
+    border: none;
+    padding: .9em 1.7em;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 98%) ;
+}
+.image-container{
+        margin-top: 4em;
+        margin-left: 0.1em; 
+        display: flex; 
+        width: 300px;
+        gap: 45px;
+}
+.container3 img{
+    width: 400px;
+    height: 500px;
+    margin-left: 7em;
+    padding-top: 1em;
+    align-items: center;
+}
